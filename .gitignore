@@ -1,0 +1,33 @@
+# Secrets — YouTube session cookies grant account access
+cookies.txt
+*.cookies
+
+# FFmpeg binaries (>100 MB, exceed GitHub limit; fetched by install_ffmpeg.py)
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+
+# PyInstaller build output
+build/
+dist/
+
+# Downloaded media
+downloads/
+
+# Unrelated Django CMS project (see CLAUDE.md)
+dlowder/
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+venv/
+env/
+.venv/
+
+# Local tool settings
+.claude/settings.local.json
+
+# OS
+Thumbs.db
+desktop.ini
